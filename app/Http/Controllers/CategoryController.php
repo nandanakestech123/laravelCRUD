@@ -65,7 +65,7 @@ class CategoryController extends My_Controller
 
         if($validator->passes()){
             if(!empty($request->file('image'))){
-                $filename = time().'-'.$request->file('image')->getClientOriginalName(); 
+                $filename = uniqid().'.'.$request->file('image')->getClientOriginalExtension();
                 $request->file('image')->move(public_path('uploads'), $filename);
                 $formdata['image']     = $filename;
             }else{
