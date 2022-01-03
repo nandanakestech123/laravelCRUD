@@ -1,3 +1,12 @@
+Process to install this project
+step 1 -> run command : composer install
+step 2 -> create a database 
+step 3 -> change your .env file 
+step 4 -> php artisan migrate
+step 5 -> php artisan db::seed AdminSeeder
+step 6 -> php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -29,14 +38,6 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Laravel Sponsors
 
-
-Process to install this project
-step 1 -> run command : composer install
-step 2 -> create a database 
-step 3 -> change your .env file 
-step 4 -> php artisan migrate
-step 5 -> php artisan db::seed AdminSeeder
-step 6 -> php artisan serve
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
 ### Premium Partners
