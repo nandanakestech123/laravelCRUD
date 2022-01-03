@@ -3,7 +3,7 @@ step 1 -> run command : composer install
 step 2 -> create a database 
 step 3 -> change your .env.example file to .env and give database configuration 
 step 4 -> php artisan migrate
-step 5 -> php artisan db::seed AdminSeeder
+step 5 -> php artisan db:seed AdminSeeder
 step 6 -> php artisan serve
 
 
